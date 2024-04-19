@@ -16,7 +16,7 @@ The Portfolio CMS offers a range of features to facilitate portfolio management.
 ### Database Schema:
 The database schema includes tables for users, projects, skills, and personal details, ensuring efficient storage and retrieval of portfolio data.
 
-![DB Schema](image_url)
+![DB Schema](./public/images/DB_Schema.png)
 *Image Caption*
 
 There is a join between the user and the user_details tables that is done using the user_id in the users_details migration that lets us access the personal details in the dashboard of the page. The code below depicts the process.
