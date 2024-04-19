@@ -12,6 +12,7 @@ The Portfolio CMS offers a range of features to facilitate portfolio management.
 
 ### Key Features:
 - **User Authentication:** Secure user authentication system with password hashing and session management.
+- **Factories and Seeders:** Creation of dummy data using the factories and seeders.
 - **Dashboard:** Personalized dashboard the user, displaying an overview of their portfolio data.
 - **Project Management:** Add, edit, and delete projects with details such as title, description, date, and images.
 - **Skill Management:** Maintain a list of skills with proficiency levels, easily updateable through the dashboard.
