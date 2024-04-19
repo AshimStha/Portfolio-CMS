@@ -49,20 +49,20 @@ There is a join between the user and the user_details tables that is done using 
 ---
 
 ## App Flow Screenshots
-![Welcome Page](./public/images/Welcome.png.png)
+![Welcome Page](./public/images/Welcome.png)
 *Welcome Page*
 
+![User Details](./public/images/User-Details.png)
+*User Details without login*
+
 ![Skills Page](./public/images/Skills-Page.png)
-*Skills Page Without Login*
+*Skills Page*
 
 ![Login Page](./public/images/Login.png)
 *Login Page*
 
 ![Admin Dashboard](./public/images/Admin-Dashboard.png)
 *Admin Dashboard*
-
-![User Details](./public/images/User-Details.png)
-*User Details*
 
 ![User Details Update](./public/images/User-Details-Update.png)
 *User Details Update*
