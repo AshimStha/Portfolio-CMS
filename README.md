@@ -1,7 +1,11 @@
 # Portfolio CMS
 
+---
+
 ## Introduction
 Welcome to my project, a Portfolio CMS designed to help users manage their portfolio data effectively. Whether you're a freelancer, developer, designer, or any professional needing a digital showcase, this platform streamlines the process of organizing and presenting your skills and work.
+
+---
 
 ## Features and Database Schema
 The Portfolio CMS offers a range of features to facilitate portfolio management. Users can create an account, log in securely, and access their personalized dashboard. From there, they can add, edit, and delete projects, update their personal details, and manage their skills.
@@ -17,7 +21,7 @@ The Portfolio CMS offers a range of features to facilitate portfolio management.
 The database schema includes tables for users, projects, skills, and personal details, ensuring efficient storage and retrieval of portfolio data.
 
 ![DB Schema](./public/images/DB_Schema.png)
-*Image Caption*
+*DB Schema*
 
 There is a join between the user and the user_details tables that is done using the user_id in the users_details migration that lets us access the personal details in the dashboard of the page. The code below depicts the process.
 
@@ -42,41 +46,45 @@ There is a join between the user and the user_details tables that is done using 
             $table->timestamps();
         });
 ```
+---
 
+## App Flow Screenshots
+![Welcome Page](./public/images/Welcome.png.png)
+*Welcome Page*
 
-## Screenshots
-![DB Schema](image_url)
-*Image Caption*
+![Skills Page](./public/images/Skills-Page.png)
+*Skills Page Without Login*
 
-![DB Schema](image_url)
-*Image Caption*
+![Login Page](./public/images/Login.png)
+*Login Page*
 
-![DB Schema](image_url)
-*Image Caption*
+![Admin Dashboard](./public/images/Admin-Dashboard.png)
+*Admin Dashboard*
 
-![DB Schema](image_url)
-*Image Caption*
+![User Details](./public/images/User-Details.png)
+*User Details*
 
-![DB Schema](image_url)
-*Image Caption*
+![User Details Update](./public/images/User-Details-Update.png)
+*User Details Update*
 
-![DB Schema](image_url)
-*Image Caption*
+![Add Skills Page](./public/images/Add-Skills.png)
+*Add Skills Page*
 
-![DB Schema](image_url)
-*Image Caption*
+![Projects Page](./public/images/Project-Page.png)
+*Projects Page*
 
-![DB Schema](image_url)
-*Image Caption*
+![Add Projects Page](./public/images/Add-Project.png)
+*Add Projects Page*
 
-![DB Schema](image_url)
-*Image Caption*
+![Delete Example](./public/images/Delete-Example.png)
+*Delete Example*
 
-![DB Schema](image_url)
-*Image Caption*
+---
 
 ## Incomplete Assignment
-Unfortunately, due to time constraints, I was unable to implement the feature to allow users to upload files or showcase multimedia content directly within the project details. This would have enhanced the portfolio presentation capabilities and provided a more comprehensive user experience.
+Unfortunately, due to time constraints, I was unable to implement the feature to allow users to upload files or showcase multimedia content directly within the project. This would have enhanced the portfolio presentation capabilities and provided a more comprehensive user experience. I was planning to use dynamic image upload feature but ran into some error compromising the app.
+
+---
 
 ## Thoughts on Laravel and Supplementary Learnings
 Laravel has been instrumental in the development of this project, offering a robust framework with built-in features such as routing, authentication, and database management. Moving forward, I would like to delve deeper into Laravel's testing capabilities to ensure the reliability and stability of the application. Additionally, exploring advanced topics such as API development and performance optimization would further enhance my understanding of Laravel and elevate my skills as a developer.
