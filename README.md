@@ -81,8 +81,8 @@ There is a join between the user and the user_details tables that is done using 
 
 ---
 
-## Incomplete Assignment
-Unfortunately, due to time constraints, I was unable to implement the feature to allow users to upload files or showcase multimedia content directly within the project. This would have enhanced the portfolio presentation capabilities and provided a more comprehensive user experience. I was planning to use dynamic image upload feature but ran into some error compromising the app.
+## Future Addition
+To make the image adding feature dynamic. I was planning to use dynamic image upload feature but ran into some error compromising the app.
 
 ---
 
