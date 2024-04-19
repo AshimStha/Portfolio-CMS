@@ -29,13 +29,18 @@ class HomeController extends Controller
         return view('admin.dashboard');
     }
 
+    // function to display the user details page
     public function user_detail(){
         return view('userdetail');
     }
+
+    // function to display the skills page for the user
     public function skill(){
         $skills=Skill::where('display','1')->get();
         return view('skill',compact('skills'));
     }
+
+    // function to display the projects by the user
     public function project(){
         $projects=Project::where('display','1')->get();
         return view('project',compact('projects'));

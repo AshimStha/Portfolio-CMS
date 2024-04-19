@@ -3,7 +3,7 @@
    <div class="container">
       <div class="row">
         
-   
+        <!-- Admin page to update the basic user information -->
         <form method="POST" action="{{ route('admin.personal-info.update') }}" enctype="multipart/form-data">
             @csrf
             <div class="body">

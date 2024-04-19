@@ -14,9 +14,11 @@ class SkillController extends Controller
         $skills = Skill::latest()->get();
         return view('admin.skills.list', compact('skills'));
     }
+
     public function add(){
         return view('admin.skills.add');
     }
+    
     public function store(Request $request)
     {
         $request->validate([
